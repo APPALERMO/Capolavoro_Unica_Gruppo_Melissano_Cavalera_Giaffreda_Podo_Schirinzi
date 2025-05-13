@@ -18,7 +18,9 @@ Switch(config-line)#password 12345678
 Switch(config-line)#login
 Switch(config-line)#exit
 Switch(config)#banner motd #Benvenuto nello Switch Concentratore dell'Edificio. Se non sei un tecnico o uno degli amministratori della rete non sei autorizzato ad accedere....#
+````
 Dopo di che, per configurare l’accesso da remoto via Telnet, abbiamo utilizzato i seguenti comando tramite il CLI del concentratore:
+````
 Switch(config)#line vty 0 15
 Switch (config-line)#password 123456789
 Switch (config-line)#login
