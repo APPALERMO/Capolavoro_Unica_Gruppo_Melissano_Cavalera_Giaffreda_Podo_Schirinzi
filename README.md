@@ -46,11 +46,8 @@ Nella rete presente tra i due edifici abbiamo configurato il RIP, utilizzando i 
 (modalità globale)
 
 router rip
-
 version 2
-
 no auto-summary
-
 network <indirizzo di rete adiacente>
 ````
 Nel router 6 abbiamo dovuto aggiungere i seguenti comandi, necessari per il poter utilizzare il server DCHP anche nel secondo edificio:
